@@ -1,0 +1,76 @@
+    1  cd Desktop
+    2  cd planets
+    3  ls
+    4  git log
+    5  nano mars.txt
+    6  git diff HEAD mars.txt
+    7  git diff HEAD~1 mars.txt
+    8  git diff HEAD~2 mars.txt
+    9  ls -a
+   10  git log --oneline
+   11  git diff c8dd898
+   12  nano mars.txt
+   13  status
+   14  git status
+   15  git commit -m "add mars.txt"
+   16  cat mars.txt
+   17  git log --oneline
+   18  git commit -m mars.txt
+   19  git log
+   20  git diff mars.txt
+   21  git restore mars.txt
+   22  git status
+   23  git log --oneline
+   24  git log --oneline mars.txt
+   25  git commit mars.txt
+   26  git log
+   27  git log
+   28  cd planets
+   29  cd Desctop
+   30  echo "Venus is beautiful". venus.txt
+   31  git add venus.txt
+   32  echo "venus is beautiful" > venus.txt
+   33  git add venus.txt
+   34  echo "venus is too hot" >> venus.txt
+   35  git commit -m "comment on venus"
+   36  cat venus
+   37  cat venus.txt
+   38  git log
+   39  git restore venus.txt
+   40  git log
+   41  cat venus.txt
+   42  cat masr.txt
+   43  cat mars.txt
+   44  echo "venus is beautiful" > venus.txt
+   45  cat venus.txt
+   46  echo "venus is beautiful" > venus.txt
+   47  echo "venus is hot" >> venus.txt
+   48  ls
+   49  git remote add origin https://github.com/Evgenia-on-GitHub/planets.git
+   50  git push origin main
+   51  git push origin main
+   52  echo "mars is hot" > mars.txt
+   53  git add venus.txt
+   54  git add mars.txt
+   55  git commit -m "new text"
+   56  git log
+   57  cat mars.txt
+   58  git log --oneline --all
+   59  nano venus.txt
+   60  git add venus.txt
+   61  git commit -m "add history"
+   62  git status
+   63  git push origin main
+   64  git log --oneline --all
+   65  history>history.txt
+   66  cat hystory.txt
+   67  cat history.txt
+   68  git push origin main
+   69  git clone https://...of the clone
+   70  # git clone https://...of the clone
+   71  nano pluto.txt
+   72  git add pluto.txt
+   73  git commit -m "new text about pluto"
+   74  git push origin main
+   75  history .. history1.txt
+   76  history >> history1.txt
